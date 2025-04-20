@@ -20,7 +20,7 @@ export default function Register() {
             className="custom-form bg-light rounded p-3 m-2 outline-none shadow-sm"
             onSubmit={(e) => e.preventDefault()}
           >
-            <div className=" d-flex justify-content-center">
+            <div className="d-flex justify-content-center">
               <Logo />
             </div>
 
@@ -63,7 +63,7 @@ export default function Register() {
               to="/login"
               className="text-primary fw-bold mt-2 p-1 d-inline-block hover-text-primary"
             >
-              Already Have An Account
+              Already Have An Account!
             </Link>
           </Form>
         </div>
