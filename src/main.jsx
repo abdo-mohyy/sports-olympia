@@ -3,7 +3,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import WindowContext from "./context/WindowWidthContext/WidthComponent.jsx";
-import "./index.css";
+// Css Files
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./custom.scss";
 import "./style/root.css";

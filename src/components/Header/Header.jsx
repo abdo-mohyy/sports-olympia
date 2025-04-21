@@ -39,7 +39,7 @@ export default function Header() {
               </NavLink>
             </div>
           ) : (
-            // Normal header login button
+            // header login button
             <div className="auth-btns col-5 col-md-3 d-flex align-items-center justify-content-end gap-4 order-md-4 order-2">
               <Link
                 to="/login"
