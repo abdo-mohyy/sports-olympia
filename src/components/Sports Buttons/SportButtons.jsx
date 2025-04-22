@@ -132,7 +132,7 @@ export default function SportsButton() {
                   variant="outline-info"
                   className="p-2 text-primary mb-2 rounded"
                 >
-                  التنس - فردي (اطفال) - كبار
+                  التنس - فردي (اطفال)
                 </Button>
               </Accordion.Body>
             </Accordion.Item>
