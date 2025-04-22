@@ -1,0 +1,10 @@
+.custom-scroll {
+  max-height: 600px;
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.custom-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}

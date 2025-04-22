@@ -11,6 +11,32 @@
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   --box-shadow-lg: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: "Cairo", sans-serif;
+}
+
 a {
   text-decoration: none;
+}
+
+/* Arabic Direction */
+.modal-header {
+  .modal-title {
+    text-align: right;
+    width: 100%;
+  }
+}
+
+.form-control {
+  text-align: right;
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.w-95 {
+  width: 95%;
 }

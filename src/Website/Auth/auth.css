@@ -4,8 +4,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.custom-form {
+  direction: ltr !important;
+  text-align: left !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 .auth-card {
   .submit:hover {
     background-color: var(--primary-color) !important;
@@ -13,14 +18,26 @@
   }
 }
 
-@media (min-width: 577px) {
-  .custom-form {
-    width: 70% !important;
-  }
-}
-
 @media (max-width: 576px) {
   .custom-form {
     width: 90% !important;
   }
+}
+
+@media (min-width: 577px) and (max-width: 800px) {
+  .custom-form {
+    width: 80% !important;
+  }
+}
+
+@media (min-width: 801px) {
+  .custom-form {
+    width: 50% !important;
+  }
+}
+
+.english-auth {
+  direction: ltr !important;
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
